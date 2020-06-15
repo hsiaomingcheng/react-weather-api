@@ -66,7 +66,7 @@ const CardContainer = styled.div`
     &:after {
         position: absolute;
         display: block;
-        background: url(${(props) => `/assets/image/${props.backgroundImagePath}.jpg`}) center center no-repeat;
+        background: url(${(props) => `./assets/image/${props.backgroundImagePath}.jpg`}) center center no-repeat;
         background-size: 100%;
         width: 100%;
         height: 100%;
