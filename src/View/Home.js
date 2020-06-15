@@ -42,7 +42,7 @@ class Home extends React.Component {
     componentDidMount() {
         const { cities } = this.state;
         const citiesId = cities.map((ele) => ele.id).toString();
-        axios.get(`http://api.openweathermap.org/data/2.5/group?id=${citiesId}&appid=f9ad7befd01af9bb1f8b127796ab70a6&lang=zh_tw&units=metric`)
+        axios.get(`https://api.openweathermap.org/data/2.5/group?id=${citiesId}&appid=f9ad7befd01af9bb1f8b127796ab70a6&lang=zh_tw&units=metric`)
             .then((response) => {
                 response.data.list.map((list) => {
                     cities.map((city) => {
