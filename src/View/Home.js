@@ -1,4 +1,3 @@
-/* eslint-disable array-callback-return */
 import React from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
@@ -67,7 +66,11 @@ class Home extends React.Component {
                                 newCities: [...prevState.newCities, newElement],
                             }));
                         }
+
+                        return false;
                     });
+
+                    return false;
                 });
             });
     }

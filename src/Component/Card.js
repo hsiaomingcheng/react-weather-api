@@ -9,7 +9,7 @@ class Card extends React.Component {
         this.hundleCovertSecond = this.hundleCovertSecond.bind(this);
     }
 
-    // eslint-disable-next-line class-methods-use-this
+    /* eslint-disable-next-line class-methods-use-this */
     hundleCovertSecond(second) {
         return new Date((second + (8 * 3600)) * 1000).toISOString().substr(11, 8);
     }
