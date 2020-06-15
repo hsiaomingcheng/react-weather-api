@@ -33,6 +33,7 @@ module.exports = {
         'react/jsx-indent-props': ['error', 'first'],
         'react/jsx-props-no-spreading': 'off',
         'react/prop-types': 'off',
+        'react/jsx-one-expression-per-line': 'off',
         'jsx-a11y/no-static-element-interactions': 'off',
         'jsx-a11y/anchor-is-valid': 'off',
     }
